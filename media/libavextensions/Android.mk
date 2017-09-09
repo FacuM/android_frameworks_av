@@ -15,6 +15,7 @@ LOCAL_C_INCLUDES:= \
         $(TOP)/$(call project-path-for,qcom-media)/mm-core/inc \
         $(TOP)/frameworks/av/media/libstagefright \
         $(TOP)/hardware/qcom/display-caf-new/libgralloc    \
+        $(TOP)/hardware/qcom/media/default/mm-core/inc   \
 
 LOCAL_CFLAGS += -Wno-multichar -Werror
 
