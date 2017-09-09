@@ -47,7 +47,8 @@ LOCAL_C_INCLUDES:= \
         $(TOP)/frameworks/native/include/media/openmax \
         $(TOP)/external/flac/include \
         $(TOP)/system/media/audio_utils/include \
-        $(TOP)/$(call project-path-for,qcom-media)/mm-core/inc
+        $(TOP)/$(call project-path-for,qcom-media)/mm-core/inc \
+        $(TOP)/hardware/qcom/media-caf/mm-core/inc    
 
 LOCAL_CFLAGS += -Wno-multichar -Werror
 
