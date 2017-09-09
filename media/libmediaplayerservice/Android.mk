@@ -57,6 +57,7 @@ LOCAL_C_INCLUDES :=                                                 \
     $(TOP)/frameworks/native/include/media/openmax                  \
     $(TOP)/external/tremolo/Tremolo                                 \
     $(TOP)/frameworks/av/media/libavextensions                      \
+    $(TOP)/hardware/qcom/media-caf/mm-core/inc                      \
 
 LOCAL_CFLAGS += -Werror -Wno-error=deprecated-declarations -Wall #-DLOG_NDEBUG=0
 LOCAL_CLANG := true
