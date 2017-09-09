@@ -140,6 +140,7 @@ LOCAL_C_INCLUDES += \
         $(TOP)/hardware/samsung_slsi-$(TARGET_SLSI_VARIANT)/exynos/include \
         $(TOP)/hardware/samsung_slsi-$(TARGET_SLSI_VARIANT)/exynos/libhwc \
         $(TOP)/hardware/qcom/media-caf/mm-core/inc                        \
+        $(TOP)/hardware/qcom/display-caf-new/libgralloc                  \
 
 LOCAL_ADDITIONAL_DEPENDENCIES := \
         $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr
